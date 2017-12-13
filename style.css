@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+.sidebar {
+    background-color: #222222;
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+}
+
+.sidebar h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.camgrid {
+    margin-left: 200px;
+    background-color: #000000;
+    width: calc(100% - 200px);
+    height: 100vh;
+}
+
+.grid-stack {
+    background-color: #000000;
+}
+
+.grid-stack-item-content {
+    color: #ffffff;
+    text-align: center;
+    background-color: #222222;
+    background-image: url('assets/camicon.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.close-btn {
+    float: right;
+}
